@@ -16,9 +16,9 @@ main:
   - name: Talks
     url: '#talks'
     weight: 40
-  - name: Awards
+  - name: Awards & Honor
     url: '#awards'
-    weight: 50
+    weight: 60
     - name: Contact
     url: '#contact'
     weight: 60
