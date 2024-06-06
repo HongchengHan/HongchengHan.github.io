@@ -32,7 +32,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Neural Processing Letters, 54*(2817–2830)"
-publication_short: "Neural Processing Letters"
+publication_short: "*Neural Processing Letters*"
 
 abstract: This paper proposes a new method for constructing a multimodal orthodontic corpus to tackle the situation that only using patients’ symptom descriptions or their lateral cephalometric radiographs fails to find patients in similar conditions, which could be used for data management, data analysis, data retrieval and teaching in orthodontics. Firstly, we introduce a multimodal corpus construction method that combines the precise classified semantic tags of images with symptom descriptions to search the patients in most similar conditions, so studies on treatment plans and results on this group of patients can be done. Since feature word extraction of symptom descriptions could be achieved by Natural Language Processing, the challenge of constructing a precise orthodontic corpus relies on the accuracy of classifying semantic tags of images. To cope with it, secondly, we propose a novel metric learning method named margin-balancing loss by fusing the global and local features in the deep architecture, which could enhance classifiers’ discriminative ability and provide precise results for constructing the multimodal orthodontic medicine corpus. Experimental results demonstrate the proposed algorithm achieves a higher accuracy which outperforms most classification methods. The proposed corpus construction method could be introduced into more medical fields other than orthodontics.
 

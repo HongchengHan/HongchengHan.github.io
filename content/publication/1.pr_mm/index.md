@@ -40,8 +40,8 @@ publishDate: '2024-06-06'
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: Pattern Recognition, 136*(109247)
-publication_short: Pattern Recognition
+publication: "*Pattern Recognition, 136*(109247)"
+publication_short: "*Pattern Recognition*"
 
 abstract: In the histopathological melanoma image diagnosis system, manual identification of super-scale slides with dense cells is tedious, time-consuming, and subjective. To deal with this problem, we propose an automatic identification network based on the deformable partition attention to identify lots of dense slides as an assistant. A coarse-to-fine strategy is adopted in feature representation and qualitative identification to improve the identification accuracy of melanomas and nevi. First of all, because it is difficult to extract features in the lesion area with blurred boundaries and uneven distribution, we develop a deformable partition attention module, which integrates the advantage of the attention mechanism and deformable convolution. The module overcomes the limitation of rectangular convolution and gradually refines the channel and spatial features, which enriches feature representation by combining global and local features. Secondly, to address the problem of difficult convergence and poor recognition rate caused by the excessive non-aligned distance between benign-malignant and benign subcategories, we propose a progressive architecture via a coarse sub-network closely followed by a fine sub-network. Moreover, to further increase the inter-class differences and reduce the intra-class disparities, we propose a joint loss function to mine hard samples, which effectively improves the identification performance. Experimental results on the clinical dataset show that the proposed algorithm has higher sensitivity and specificity and outperforms state-of-the-art deep neural networks.
 
