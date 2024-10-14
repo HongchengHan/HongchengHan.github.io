@@ -1,0 +1,84 @@
+---
+title: 'GSA-Gaze: Generative Self-adversarial Learning for Domain Generalized Driver Gaze Estimation'
+
+# Authors
+# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
+# and it will be replaced with their full name and linked to their profile.
+authors:
+  - hanhc
+  - Zhiqiang Tian
+  - Yuying Liu
+  - Shengpeng Li
+  - Dong Zhang
+  - Shaoyi Du*
+
+# Author notes (optional)
+author_notes:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 'Corresponding author'
+
+date: '2024-02-13'
+doi: '10.1109/ITSC57777.2023.10421891'
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2024-06-06'
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ['paper-conference']
+
+# Publication name and optional abbreviated publication name.
+publication: In *2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)*
+publication_short: In *ITSC 2023*
+
+abstract: Estimating driver gaze accurately is critical for the human-machine cooperative driving, but the significant facial appearance diversions caused by background, illumination, personal characteristics, etc. pose a challenge to the generalizability of gaze estimation models. In this paper, we propose the generative self-adversarial learning mechanism for generalized gaze estimation that aims to learn general gaze features while eliminating sample-specific features and preventing cross-domain feature over-fitting. Firstly, to reduce information redundancy, the feature encoder is designed based on pyramid-grouped convolution to extract a sparse feature representation from the facial appearance. Secondly, the gaze regression module supervises the model to learn as many gaze-relevant features as possible. Thirdly, the adversarial image reconstruction task prompts the model to eliminate the domain-specific features. The adversarial learning of the gaze regression and the image reconstruction tasks guides the model to learn only general gaze features across domains, preventing cross-domain feature over-fitting, enhancing the domain generalization capability. The results of cross-domain testing of four active gaze datasets prove the effectiveness of the proposed method.
+
+# Summary. An optional shortened abstract.
+summary: Enhancing the domain generalization capability of gaze estimation through generative self-adversarial learning.
+
+tags: [Driver intention recognition, Gaze estimation, Domain generalization]
+
+# Display this page in the Featured widget?
+featured: true
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+url_pdf: 
+url_code: 'https://github.com/HongchengHan/GSA-Gaze'
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: 'https://ieeexplore.ieee.org/abstract/document/10421891'
+url_video: ''
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+---
+
+
+
+{{% callout note %}}
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+{{% callout note %}}
+Create your slides in Markdown - click the _Slides_ button to check out the example.
+{{% /callout %}}
+
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+
+
