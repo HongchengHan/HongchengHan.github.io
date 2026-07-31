@@ -35,7 +35,29 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '� Google Scholar Metrics'
+      subtitle: 'Citation impact at a glance'
+      text: |-
+        <div style="display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); margin:1rem 0;">
+          <div style="border:1px solid rgba(127,127,127,0.2); border-radius:1rem; padding:1rem 1.1rem; background:linear-gradient(135deg, rgba(59,130,246,0.08), rgba(16,185,129,0.08));">
+            <div style="font-size:0.8rem; opacity:0.75; text-transform:uppercase; letter-spacing:0.08em;">Citations</div>
+            <div style="font-size:2rem; font-weight:700; margin-top:0.25rem;">137</div>
+          </div>
+          <div style="border:1px solid rgba(127,127,127,0.2); border-radius:1rem; padding:1rem 1.1rem; background:rgba(255,255,255,0.04);">
+            <div style="font-size:0.8rem; opacity:0.75; text-transform:uppercase; letter-spacing:0.08em;">h-index</div>
+            <div style="font-size:2rem; font-weight:700; margin-top:0.25rem;">5</div>
+          </div>
+          <div style="border:1px solid rgba(127,127,127,0.2); border-radius:1rem; padding:1rem 1.1rem; background:rgba(255,255,255,0.04);">
+            <div style="font-size:0.8rem; opacity:0.75; text-transform:uppercase; letter-spacing:0.08em;">i10-index</div>
+            <div style="font-size:2rem; font-weight:700; margin-top:0.25rem;">1</div>
+          </div>
+        </div>
+        <p style="margin-top:0.5rem;"><a href="https://scholar.google.com/citations?user=KhaN2PgAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">View full profile on Google Scholar →</a></p>
+    design:
+      columns: '1'
+  - block: markdown
+    content:
+      title: '�📚 My Research'
       subtitle: ''
       text: |-
         My research focuses on AI-driven medical image analysis, including medical image segmentation, multimodal fusion diagnosis, and cross-modal generation. Currently, I am dedicated to developing a visual foundation model for multimodal ultrasound imaging. This model is designed to support diverse modalities such as B-mode ultrasound, elastography, color Doppler ultrasound, and contrast-enhanced ultrasound, enabling diagnostic assistance for multiple diseases including thyroid and breast conditions.
